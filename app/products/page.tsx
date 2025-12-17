@@ -160,13 +160,8 @@ export default function ProductsPage() {
 
                     {/* Price & CTA */}
                     <div className="flex items-center justify-between pt-4 border-t border-border">
-                      <span className="text-2xl font-bold text-primary">{product.price}</span>
-                      <Button asChild className="group/btn">
-                        <Link href={`/products/${product.category}/${product.id}`}>
-                          View Details
-                          <ExternalLink className="ml-2 h-4 w-4 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
-                        </Link>
-                      </Button>
+                      
+                      
                     </div>
                   </div>
                 </Card>
